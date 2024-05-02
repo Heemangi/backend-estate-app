@@ -14,7 +14,7 @@ config();
 
 // app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 app.use(cors({
-    origin: "https://frontend-estate-app.onrender.com",
+    origin: "https://frontend-estate-app.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
